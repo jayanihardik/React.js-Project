@@ -1,0 +1,912 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.header-top-search {
+		display: inline-block
+	}
+	#clock .date {
+		font-size: 13px
+	}
+	#clock .time {
+		font-size: 30px;
+		letter-spacing: 0.02em
+	}
+	.widget_card>.widget_card_body>.widget_icon {
+		font-size: 19px;
+		height: 75px;
+		line-height: 75px;
+		width: 35px;
+	}
+	.widget_card>.widget_card_body>.widget_icon:before {
+		top: 19px
+	}
+	.widget_card>.widget_card_body>.widget_text>h3 {
+		font-size: 25px
+	}
+	.widget_card>.widget_card_body>.widget_text>p {
+		font-size: 14px;
+		letter-spacing: 0
+	}
+	#sidebar {
+		margin-left: -235px
+	}
+	#sidebar.active {
+		margin-left: 0
+	}
+	#content {
+		width: 100%
+	}
+	.earning_chart li {
+		margin: 0 10px
+	}
+	.sweetalerts-example>h3 {
+		font-size: 15px
+	}
+	.tooltip-example .btn {
+		margin: 3px 2px
+	}
+	.pagination.separated>li,
+	.pagination.separated-round li {
+		margin: 0
+	}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.main-header .seipkon-logo {
+		width: 100%
+	}
+	.header-top-right-section>ul>li:first-child {
+		display: none
+	}
+	#sidebar {
+		padding-top: 20%
+	}
+	.product-info h3 {
+		font-size: 16px
+	}
+	.product-info h4.price {
+		font-size: 17px
+	}
+	#sidebar.active {
+		margin-left: 0
+	}
+	#content {
+		padding-top: 14rem
+	}
+	.create-page-right {
+		margin-top: 50px
+	}
+	.chat-content {
+		width: calc(-120px + 100%)
+	}
+	.employee-right {
+		margin-top: 50px
+	}
+	.mail-attachment li {
+		width: 100%
+	}
+	.panels-section .row:last-child .panel {
+		margin-bottom: 30px
+	}
+	.panels-section .row:last-child .col-md-4:last-child .panel {
+		margin-bottom: 0
+	}
+	.bs-icon ul li {
+		width: 16.5%
+	}
+	.single-knob {
+		margin: 15px 0
+	}
+	.form-gender {
+		width: 100%
+	}
+	.step-wizard .steps>ul li {
+		display: block;
+		margin-bottom: 10px;
+		margin-right: 0
+	}
+	.step-wizard .steps>ul li:last-child {
+		margin-bottom: 0
+	}
+	.no-pad-right {
+		padding-right: 15px
+	}
+	.post-body-img {
+		margin-bottom: 15px
+	}
+	.invoice-status {
+		top: 0;
+		right: 0
+	}
+	.invoice-note {
+		margin-top: 0
+	}
+	.seipkon-login-page-header-area {
+		min-height: 20vh
+	}
+	.social-profile-widget-info i {
+		border-radius: 0
+	}
+	.invoice-box {
+		padding: 20px
+	}
+    .progressbar-example{
+        margin-top: 30px
+    }
+    .progressbar_page .row:first-child .col-md-6:first-child .progressbar-example{
+        margin-top: 0
+    }
+    .input-form-mask .form-group .row .text-right{
+        text-align: left
+    }
+    .form-gender{
+        text-align: right
+    }
+    .top-label-exapmple .form-gender{
+        text-align: left
+    }
+    .label-left.form-layout-page .form-gender{
+        text-align: left
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.main-header .seipkon-logo {
+		width: 100%
+	}
+	.header-top-search {
+		display: none
+	}
+    .horizontal-tab-example #service_pro a{
+        padding: 5px 7px
+    }
+    .vertical-tab-example .nav-tabs li.active > a{
+        border: medium none
+    }
+    .vertical-tab-example #service_pro2 a{
+        border: medium none
+    }
+    .vertical-tab-example .nav-tabs li.active > a::after{
+        display: none
+    }
+	.profile-avatar-txt>p {
+		display: none
+	}
+	.header-top-right-section>ul>li:first-child {
+		display: none
+	}
+	.notification-box,
+	.message-box {
+		width: 240px;
+		left: -100px
+	}
+	.open>.dropdown-menu.profile-box {
+		left: auto;
+		right: 0
+	}
+	#sidebar {
+		width: 230px;
+		padding-top: 40%
+	}
+	#sidebar.active {
+		margin-left: 0
+	}
+	.profile-avatar {
+		width: 50px;
+		height: 50px
+	}
+	.profile-info {
+		margin-top: 7px
+	}
+	.profile-info>h3 {
+		font-size: 16px
+	}
+	.profile-info>p {
+		font-size: 13px
+	}
+	#content {
+		padding-top: 14rem
+	}
+	.seipkon-breadcromb-right {
+		text-align: left;
+		margin-top: 7px
+	}
+	.no_pad_right {
+		padding-right: 15px
+	}
+	.no_pad_left {
+		padding-left: 15px
+	}
+	.earning_chart li {
+		margin: 0 10px
+	}
+	.add-product-image-upload {
+		margin-top: 50px
+	}
+	.product-upload-action button {
+		margin-top: 8px
+	}
+	.table-responsive {
+		border: 0px solid #ddd
+	}
+	.dataTables_length {
+		float: none !important;
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.dataTables_filter {
+		float: none !important;
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.dataTables_info {
+		float: none;
+		display: block;
+		text-align: center
+	}
+	.dataTables_paginate {
+		text-align: center !important;
+		margin-bottom: 20px !important
+	}
+	#content>.page-content {
+		padding: 15px 0
+	}
+	#page-list {
+		margin-bottom: 20px
+	}
+	.page-box {
+		padding: 15px
+	}
+	.create-page-right {
+		margin-top: 50px
+	}
+	.chat-board-right {
+		margin-top: 50px
+	}
+	.chat-board-header>.navbar>ul.custom-menu {
+		display: block;
+		float: none;
+		margin: 0;
+		overflow: hidden;
+		padding-top: 20px;
+		text-align: left;
+		width: 100%;
+	}
+	.chat-board-header>.navbar>ul.custom-menu li {
+		display: inline-block
+	}
+	.chat-box-inner .chat-list {
+		padding: 10px
+	}
+	.chat-img {
+		width: 35px
+	}
+	.chat-content {
+		padding-left: 5px;
+		width: 80%
+	}
+	.message-text-area button {
+		right: 15px
+	}
+	.employee-right {
+		margin-top: 50px
+	}
+	.mail-editor.compose-page {
+		margin-top: 50px
+	}
+	.mail-inbox-header {
+		margin-top: 50px;
+		text-align: center
+	}
+	.responsive_center_in {
+		text-align: center;
+		margin-top: 20px
+	}
+	.mail-inbox-content table {
+		margin-bottom: 20px !important
+	}
+	.mail-read-box {
+		margin-top: 50px
+	}
+	.mail-view-header-right {
+		text-align: left;
+		margin-top: 15px
+	}
+	.mail-attachment li {
+		width: 100%;
+		margin-right: 0
+	}
+	.mail-read-action-btn {
+		display: block;
+		overflow: hidden;
+		text-align: center
+	}
+	.mail-read-action-btn>.pull-right {
+		float: none !important;
+		margin-top: 15px
+	}
+	.button-page-box-content .btn-group {
+		margin: 5px 0
+	}
+	.button-page-box-content .input-group {
+		margin: 5px 0
+	}
+	.panels-section .row:last-child .panel {
+		margin-bottom: 30px
+	}
+	.panels-section .row:last-child .col-md-4:last-child .panel {
+		margin-bottom: 0
+	}
+	.bs-icon ul li {
+		width: 50%
+	}
+	.form-group:last-child {
+		margin-bottom: 15px
+	}
+	.form-wrap.input-form-mask>form .col-md-4.text-right {
+		text-align: left
+	}
+	.single-knob {
+		margin: 15px 0
+	}
+	.form-gender {
+		width: 100%
+	}
+	.step-wizard .steps>ul li {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 10px
+	}
+	.step-wizard .steps>ul li:last-child {
+		margin-bottom: 0
+	}
+	.wizard .content.clearfix {
+		padding: 0
+	}
+	.wizard .content.clearfix .form-group .row .col-md-6 {
+		margin-bottom: 15px
+	}
+	.wizard .content.clearfix .form-group .row .col-md-6:last-child {
+		margin-bottom: 0
+	}
+	.wizard>.actions {
+		padding-right: 0
+	}
+	.table {
+		margin-bottom: 15px !important
+	}
+	.dataTables_filter input {
+		margin-left: 0 !important
+	}
+	#datatables_example_1_info,
+	#button_datatables_example_info,
+	#responsive_datatables_example_info {
+		display: block;
+		float: none !important;
+		width: 100%;
+	}
+	#datatables_example_1_paginate,
+	#button_datatables_example_paginate,
+	#responsive_datatables_example_paginate {
+		clear: both;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	div.dt-buttons {
+		margin-left: 40px
+	}
+	.profile-wall-share>ul>li {
+		display: block;
+		margin-right: 0;
+		width: 100%
+	}
+	.no-pad-right {
+		padding-right: 15px
+	}
+	.post-body-img {
+		margin-bottom: 15px
+	}
+	.timeline-post-body.article_post .post-body-text h3 {
+		font-size: 16px
+	}
+	.invoice-status:after {
+		left: -25px;
+		width: 55%
+	}
+	.invoice-status {
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 25%
+	}
+	.invoice-company-address {
+		margin-bottom: 30px
+	}
+	.invoice-subtotal {
+		margin-top: 30px
+	}
+	.gallery_no_marg {
+		margin-bottom: 30px
+	}
+	.gallery_no_marg:last-child {
+		margin-bottom: 0
+	}
+	.login-page-logo,
+	.error-page-logo {
+		text-align: center
+	}
+	.login-page-logo-right,
+	.error-page-logo-right {
+		text-align: center;
+		margin-top: 20px
+	}
+	.seipkon-login-page-header-area {
+		min-height: 40vh
+	}
+	.login-form-box {
+		padding: 15px;
+		margin-top: -45px
+	}
+	.lockscreen-box {
+		padding: 50px 0
+	}
+	.login-form-box>h3 {
+		font-size: 20px;
+		margin-bottom: 10px
+	}
+	.error-page-box h2 {
+		font-size: 70px
+	}
+	.error-page-box h4 {
+		font-size: 20px
+	}
+	.error-page-form .form-group {
+		width: 100%
+	}
+	.error-page-box p {
+		font-size: 14px
+	}
+	.tooltip-example button {
+		margin: 3px
+	}
+	.social-profile-widget-info i {
+		height: 50px;
+		line-height: 50px;
+		font-size: 22px;
+		border-radius: 0
+	}
+	.social-profile-widget-info h3 {
+		margin-top: 13px
+	}
+	.form-example>h3 {
+		font-size: 18px
+	}
+	.invoice-box {
+		padding: 0
+	}
+	.seipkon-login-form-area {
+		padding-bottom: 80px
+	}
+	.lockscreen_area {
+		padding-bottom: 0
+	}
+    .pagination.separated > li{
+        margin: 0
+    }
+    .pagination > li > a, .pagination > li > span{
+        padding: 5px 10px
+    }
+    .pagination.post-button > li:first-child{
+        display: none
+    }
+    .pagination.post-button > li:last-child{
+        display: none
+    }
+    .full-width-breadcrumb{
+        grid-template-columns: 35% 65%;
+    }
+    .date-picker .row:last-child .form-group{
+        margin-bottom: 15px
+    }
+    .date-picker .row:last-child .col-md-6:last-child .form-group{
+        margin-bottom: 0
+    }
+    .color-picker .row:last-child .form-group{
+        margin-bottom: 15px
+    }
+    .color-picker .row:last-child .col-md-6:last-child .form-group{
+        margin-bottom: 0
+    }
+    .last-knob{
+        margin-bottom: 0
+    }
+    .form-layout-page .form-group:last-child{
+        margin-bottom: 0
+    }
+    .invoice-head > h2{
+        display: inline-block;
+        margin-top: 8px
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header-top-search {
+		display: inline-block;
+		margin-left: 5px
+	}
+	.header-top-search form {
+		width: 170px
+	}
+	.widget_card.alert {
+		padding: 30px
+	}
+    .horizontal-tab-example #service_pro a{
+        padding: 5px 7px
+    }
+    .vertical-tab-example .nav-tabs li.active > a{
+        border: medium none
+    }
+    .vertical-tab-example #service_pro2 a{
+        border: medium none
+    }
+    .vertical-tab-example .nav-tabs li.active > a::after{
+        display: none
+    }
+	#sidebar {
+		padding-top: 28%;
+		width: 250px
+	}
+	.single-product {
+		margin: 30px 50px 0
+	}
+	.profile-avatar {
+		width: 50px;
+		height: 50px
+	}
+	.profile-info {
+		margin-top: 7px
+	}
+	.profile-info>h3 {
+		font-size: 16px
+	}
+	.profile-info>p {
+		font-size: 13px
+	}
+	#content {
+		padding-top: 14rem
+	}
+	.seipkon-breadcromb-right {
+		text-align: left;
+		margin-top: 7px
+	}
+	.no_pad_right {
+		padding-right: 15px
+	}
+	.no_pad_left {
+		padding-left: 15px
+	}
+	.earning_chart li {
+		margin: 0 10px
+	}
+	.add-product-image-upload {
+		margin-top: 50px
+	}
+	.product-upload-action button {
+		margin-top: 8px
+	}
+	.table-responsive {
+		border: 0px solid #ddd
+	}
+	.dataTables_length {
+		float: none !important;
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.dataTables_filter {
+		float: none !important;
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.dataTables_info {
+		float: none;
+		display: block;
+		text-align: center
+	}
+	.dataTables_paginate {
+		text-align: center !important;
+		margin-bottom: 20px !important
+	}
+	#content>.page-content {
+		padding: 15px 0
+	}
+	#page-list {
+		margin-bottom: 20px
+	}
+	.page-box {
+		padding: 15px
+	}
+	.create-page-right {
+		margin-top: 50px
+	}
+	.chat-board-right {
+		margin-top: 50px
+	}
+	.chat-board-header>.navbar>ul.custom-menu {
+		display: inline-block;
+		float: right;
+		margin: 0;
+		overflow: inherit;
+		padding-top: 0px;
+		text-align: right;
+		width: auto;
+	}
+	.chat-board-header>.navbar>ul.custom-menu li {
+		display: inline-block
+	}
+	.chat-box-inner .chat-list {
+		padding: 10px
+	}
+	.chat-img {
+		width: 35px
+	}
+	.chat-content {
+		padding-left: 5px;
+		width: 80%
+	}
+	.message-text-area button {
+		right: 15px
+	}
+	.employee-right {
+		margin-top: 50px
+	}
+	.mail-editor.compose-page {
+		margin-top: 50px
+	}
+	.mail-inbox-header {
+		margin-top: 50px;
+		text-align: center
+	}
+	.responsive_center_in {
+		text-align: center;
+		margin-top: 20px
+	}
+	.mail-inbox-content table {
+		margin-bottom: 20px !important
+	}
+	.mail-read-box {
+		margin-top: 50px
+	}
+	.mail-view-header-right {
+		text-align: right;
+		margin-top: 30px
+	}
+	.mail-attachment li {
+		width: 100%;
+		margin-right: 0
+	}
+	.mail-read-action-btn {
+		display: block;
+		overflow: hidden;
+		text-align: center
+	}
+	.mail-read-action-btn>.pull-right {
+		float: none !important;
+		margin-top: 15px
+	}
+	.button-page-box-content .btn-group {
+		margin: 5px 0
+	}
+	.button-page-box-content .input-group {
+		margin: 5px 0
+	}
+	.panels-section .row:last-child .panel {
+		margin-bottom: 30px
+	}
+	.panels-section .row:last-child .col-md-4:last-child .panel {
+		margin-bottom: 0
+	}
+	.bs-icon ul li {
+		width: 33.33%
+	}
+	.form-group:last-child {
+		margin-bottom: 15px
+	}
+	.form-wrap.input-form-mask>form .col-md-4.text-right {
+		text-align: left
+	}
+	.single-knob {
+		margin: 15px 0
+	}
+	.form-gender {
+		width: 100%
+	}
+	.step-wizard .steps>ul li {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 10px
+	}
+	.step-wizard .steps>ul li:last-child {
+		margin-bottom: 0
+	}
+	.wizard .content.clearfix {
+		padding: 0
+	}
+	.wizard .content.clearfix .form-group .row .col-md-6 {
+		margin-bottom: 15px
+	}
+	.wizard .content.clearfix .form-group .row .col-md-6:last-child {
+		margin-bottom: 0
+	}
+	.wizard>.actions {
+		padding-right: 0
+	}
+	.table {
+		margin-bottom: 15px !important
+	}
+	.dataTables_filter input {
+		margin-left: 0 !important
+	}
+	#datatables_example_1_info,
+	#button_datatables_example_info,
+	#responsive_datatables_example_info {
+		display: block;
+		float: none !important;
+		width: 100%;
+	}
+	#datatables_example_1_paginate,
+	#button_datatables_example_paginate,
+	#responsive_datatables_example_paginate {
+		clear: both;
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	div.dt-buttons {
+		margin-left: 40px
+	}
+	.profile-wall-share>ul>li {
+		display: block;
+		margin-right: 0;
+		width: 100%
+	}
+	.no-pad-right {
+		padding-right: 15px
+	}
+	.post-body-img {
+		margin-bottom: 15px
+	}
+	.timeline-post-body.article_post .post-body-text h3 {
+		font-size: 16px
+	}
+	.invoice-status:after {
+		left: -25px;
+		width: 55%
+	}
+	.invoice-status {
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 25%
+	}
+	.invoice-company-address {
+		margin-bottom: 30px
+	}
+	.invoice-subtotal {
+		margin-top: 30px
+	}
+	.gallery_no_marg {
+		margin-bottom: 30px
+	}
+	.gallery_no_marg:last-child {
+		margin-bottom: 0
+	}
+	.login-page-logo,
+	.error-page-logo {
+		text-align: center
+	}
+	.login-page-logo-right,
+	.error-page-logo-right {
+		text-align: center;
+		margin-top: 20px
+	}
+	.seipkon-login-page-header-area {
+		min-height: 47vh
+	}
+	.login-form-box {
+		padding: 15px;
+		margin-top: -45px
+	}
+	.lockscreen-box {
+		padding: 50px 0
+	}
+	.login-form-box>h3 {
+		font-size: 20px;
+		margin-bottom: 10px
+	}
+	.error-page-box h2 {
+		font-size: 70px
+	}
+	.error-page-box h4 {
+		font-size: 20px
+	}
+	.error-page-form .form-group {
+		width: 100%
+	}
+	.error-page-box p {
+		font-size: 14px
+	}
+	.tooltip-example button {
+		margin: 3px
+	}
+	.social-profile-widget-info i {
+		font-size: 30px;
+		height: 75px;
+		line-height: 75px;
+		border-radius: 0
+	}
+	.social-profile-widget-info h3 {
+		margin-top: 26px
+	}
+	.toggle-switches-flex .form-group {
+		width: 60px
+	}
+	.form-example>h3 {
+		font-size: 18px
+	}
+	.invoice-box {
+		padding: 0
+	}
+	.seipkon-login-form-area {
+		padding-bottom: 80px
+	}
+	.lockscreen_area {
+		padding-bottom: 0
+	}
+    .pagination.separated > li{
+        margin: 0
+    }
+    .pagination > li > a, .pagination > li > span{
+        padding: 5px 10px
+    }
+    .pagination.post-button > li:first-child{
+        display: none
+    }
+    .pagination.post-button > li:last-child{
+        display: none
+    }
+    .full-width-breadcrumb{
+        grid-template-columns: 35% 65%;
+    }
+    .date-picker .row:last-child .form-group{
+        margin-bottom: 15px
+    }
+    .date-picker .row:last-child .col-md-6:last-child .form-group{
+        margin-bottom: 0
+    }
+    .color-picker .row:last-child .form-group{
+        margin-bottom: 15px
+    }
+    .color-picker .row:last-child .col-md-6:last-child .form-group{
+        margin-bottom: 0
+    }
+    .last-knob{
+        margin-bottom: 0
+    }
+    .form-layout-page .form-group:last-child{
+        margin-bottom: 0
+    }
+    .invoice-head > h2{
+        display: inline-block;
+        margin-top: 8px
+    }
+}
